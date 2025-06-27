@@ -10,3 +10,5 @@ Raw data from Juno's instruments are available via the [Planetary Data System](h
 * `jiram`:  North and south polar projections of JIRAM 5-micron observations (PJ4-40) are used in Figs. 4, 5, 6, and Appendix A.  Cylindrically-mapped `.fits` files containing the calibrated data are provided for both the northern and southern hemispheres.
 
 * `mwr`:  Microwave radiometer directory contains `.h5` files enabling reproduction of nadir-equivalent brightness temperature maps, TB residual maps, FFR location/strength statistics, and channel-1 lightning detection maps.  Individual maps combined into Figs. 7-17 are also provided.
+
+* `figures-alt:` Figures in the main article include lines and circles to indicate the locations of FFRs.  This directory includes the same figures, but without annotation.
