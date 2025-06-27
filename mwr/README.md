@@ -8,4 +8,4 @@ Raw MWR data are available via the [Planetary Data System](https://pds-atmospher
 
 * `mwrTB_indiv_PJ3-40.zip`: This zipped directory contains `.h5` files for MWR channels 3-6 and PJs 3-40.  Each individual file contains the latitude (`PLAT`), longitude (`PLON`), and emission angle (`PEMM`) for every measured point, along with the nadir-equivalent brightness temperature (`TB`) and its residual from the perijove-averaged model (`TBresid`).  `.png` files showing the brightness temperature and residual for individual perijoves are contained in `mwr_TBmap_PJ*.zip` and `mwr_TBresid_PJ*.zip`, respectively.  Finally, these are combined into 'quartets' in `mwr_quartets_ch*.zip`, which are in Figs. 9-10 of the main paper.
 
-* 
+* `FFRstatistics.zip`:  This zipped directory contains `.csv` files with the measurements of FFR locations, brightness temperature, and brightness residuals for each perijove and channel.  FFRs were identified in channel 5, the remaining details are extracted from channels 3-6 and used in Figs. 13-14.
